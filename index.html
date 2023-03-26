@@ -2,59 +2,97 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | News homepage</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Space+Grotesk:wght@400;500&display=swap"
+    rel="stylesheet">
+  <title>New homepage</title>
 </head>
 <body>
+  <div class="container">
+    <div class="main">
+      <nav>
+        <div class="logo">
+          <img src="assets/images/logo.svg">
+        </div>
+        <div class="links">
+          <a href="#">Home</a>
+          <a href="#">New</a>
+          <a href="#">Popular</a>
+          <a href="#">Trending</a>
+          <a href="#">Categories</a>
+        </div>
+      </nav>
 
-  Home
-  New
-  Popular
-  Trending
-  Categories
+      <div class="wrapper">
+        <div class="section1">
+          <div class="section1-1">
+              <div class="sec1-1"></div>
+              <div class="sec1-2">
+                <h1>The Bright Future of Web 3.0?</h1>
+                <div class="word-btn">
+                  <p>We dive into the next evolution of the web that claims to put the power of the platform back into the hands of the people. But is it really fulfilling its promise?</p>
+                  <button>READ MORE</button>
+                </div>
+              </div>
+          </div>
 
-  The Bright Future of Web 3.0?
+          <div class="section1-2">
+            <P>New</P>
 
-  We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
-  But is it really fulfilling its promise?
+            <div class="para-1">
+              <span>Hydrogen Vs Electric Cars</span>
+              <p>will hydrogen-fueled cars ever catch up to EVs?</p>
+            </div><hr>
 
-  Read more
+            <div class="para-2">
+              <span>The Downsides of AI Artistry</span>
+              <p>What are the possible adverse effects if on-demand AI image generator</p>
+            </div><hr>
 
-  New 
+            <div class="para-3">
+              <span>Is VC Funding Drying Up?</span>
+              <p>Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+            </div>
 
-  Hydrogen VS Electric Cars
-  Will hydrogen-fueled cars ever catch up to EVs?
+          </div>
+        </div>
 
-  The Downsides of AI Artistry
-  What are the possible adverse effects of on-demand AI image generation?
+        <div class="section2">
+          <div class="card1">
+            <img src="assets/images/image-retro-pcs.jpg" >
+            <div class="words">
+              <h2>01</h2>
+              <span>Reviving Retro PCs</span>
+              <p>What happens when old PCs are given modern upgrades?</p>
+            </div>
+          </div>
+          
+          <div class="card2">
+            <img src="assets/images/image-top-laptops.jpg">
+            <div class="words">
+              <h2>02</h2>
+              <span>Top 10 Laptops of 2022</span>
+              <p>Our best picks for various needs and budgets.</p>
+            </div>
+          </div>
 
-  Is VC Funding Drying Up?
-  Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          <div class="card3">
+            <img src="assets/images/image-gaming-growth.jpg">
+            <div class="words">
+              <h2>03</h2>
+              <span>The growing of Gaming</span>
+              <p>How the pandermic has sparked fresh opportunities.</p>
+            </div>
+          </div>
+        </div>
 
-  01
-  Reviving Retro PCs
-  What happens when old PCs are given modern upgrades?
-
-  02
-  Top 10 Laptops of 2022
-  Our best picks for various needs and budgets.
-
-  03
-  The Growth of Gaming
-  How the pandemic has sparked fresh opportunities.
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div>
   </div>
 </body>
 </html>

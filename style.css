@@ -1,0 +1,157 @@
+:root{
+    --dark-brown: hsl(240, 100%, 5%);
+    --text-color: hsl(236, 13%, 42%);
+    --yello-color: hsl(35, 77%, 62%);
+    --hover-color: hsl(5, 85%, 63%);
+    --color-white: hsl(36, 100%, 99%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: inter;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main{
+    max-width:50vw;
+    max-height: 80%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.links{
+    display: flex;
+    align-items: end;
+    padding-right: 20px;
+}
+nav .links a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: var(--text-color);
+}
+.links a:hover{
+    color: var(--hover-color);
+}
+.section1{
+    display: flex;
+    gap: 20px;
+}
+.section1-1{
+    width: 65%;
+}
+.sec1-1{
+    width: 100%;
+    background-image: url("assets/images/image-web-3-desktop.jpg");
+    height: 17rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sec1-2{
+    display: flex;
+    margin-top: 15px;
+    gap: 40px;
+    margin-right: -40px;
+}
+.sec1-2 h1{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.word-btn p{
+    width: 84%;
+    margin-right: -20px;
+    color: var(--text-color);
+}
+.word-btn button{
+    width: 150px;
+    height: 40px;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+    background-color: var(--hover-color);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.word-btn button:hover{
+    background-color: var(--dark-brown);
+}
+.section1-2{
+    background-color: var(--dark-brown);
+    color: var(--yello-color);
+    padding: 2rem 1.3rem;
+    min-width: 100px;
+}
+.section1-2 p{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.para-1,
+.para-2,{
+    margin-bottom: 2rem;
+}
+.para-1, .para-2, .para-3{
+    margin-top: 2rem;
+}
+.para-1 span, .para-2 span, .para-3 span{
+    color: var(--color-white);
+    font-weight: 700;
+    cursor: pointer;
+}
+.para-1 span:hover,
+.para-2 span:hover,
+.para-3 span:hover{
+    color: var(--yello-color);
+}
+.para-1 p, .para-2 p, .para-3 p{
+    font-size: .8rem;
+    margin: 10px 0;
+    font-weight: 400;
+    width: 250px;
+    color: var(--color-white);
+}
+
+
+.section2{
+    display: flex;
+    margin-top: 6%;
+}
+.card1, .card2, .card3{
+    display: flex;
+}
+.card1 h2,
+.card2 h2,
+.card3 h2{
+    color: var(--text-color);
+    font-weight: 700;
+}
+.card1 img,
+.card2 img,
+.card3 img{
+    width: 80px;
+}
+.words{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.words span{
+    font-weight: 700;
+    margin: 10px 0;
+    cursor:pointer;
+}
+.words span:hover{
+    color: var(--hover-color);
+}
+.words p{
+    font-size: .8rem;
+    line-height: 1.3rem;
+}
