@@ -163,10 +163,9 @@ nav .links a{
 .mobile-log {
     width: 20%;
     display: none;
-    background-color: blue;
     position: absolute;
+    background-color: rgb(247, 244, 244);
     padding: 2rem 1rem;
-    height: 100%;
 }
 .mobile-log img{
     float: right;
@@ -180,4 +179,78 @@ nav .links a{
     margin: 1rem;
     color: var(--text-color);
     text-decoration: none;
+}
+
+/*mobile responsiveness for screen at 375px */
+
+@media (max-width: 375px){
+    .links{
+        display: none;
+    }
+    .container{
+        width: 50vw;
+        height: 20vh;
+        padding: 0 5px;
+    }
+    .sec1-1{
+        width: 97vw;
+        background-image: url("assets/images/image-web-3-mobile.jpg");
+        background-size: cover;
+    }
+    .sec1-2{
+        flex-direction: column;
+    }
+    .sec1-2 h1{
+        font-size: 2.5rem;
+    }
+    .sec1-2 p{
+        width: 90vw;
+        margin-top: -30px;
+        line-height: 1.5rem;
+    }
+    .section1-2{
+        width: 86%;
+    }
+    .card1, .card2, .card3{
+        margin-top: 20px;
+    }
+    .card3{
+        margin-bottom: 50px;
+    }
+    .wrapper{
+        width: 100vw;
+    }
+    .section1{
+        flex-direction: column;
+    }
+    .section2{
+        flex-direction: column;
+        margin-top: 10%;
+    }
+    .mobileImg{
+        display: block;
+        width: 40px;
+        height: 20px;
+        display: flex;
+        margin-right: -170px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .mobile-log{
+        display: block;
+        position: absolute;
+        top: 0;
+        height: 30vh;
+        width: 50vw;
+        left: 140px;
+    }
+    .mobile-log img{
+        cursor: pointer;
+    }
+    .show{
+        display: none;
+    }
+    .list a:hover{
+        color: var(--hover-color);
+    }
 }
